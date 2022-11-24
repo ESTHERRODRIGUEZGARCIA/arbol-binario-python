@@ -44,6 +44,7 @@ arbol_numeros.preorden()
 arbol_numeros.inorden()
 arbol_numeros.postorden()
 
+#guardar
 busqueda = int(input("Ingresa un número para buscar en el árbol: "))
 n = arbol_numeros.buscar(busqueda)
 if n is None:
